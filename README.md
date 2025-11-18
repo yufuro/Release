@@ -1,5 +1,3 @@
-GitHubのREADMEとして読みやすく、整理された形式に整形しました。
-
 ## 🤖 ロボティクス体験キット / Robotics Experience Kit
 
 -----
