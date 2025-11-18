@@ -29,8 +29,8 @@ pip install voicevox_core-0.14.0+cpu-cp38-abi3-linux_aarch64.whl
 #wget https://github.com/microsoft/onnxruntime/releases/download/v1.13.1/onnxruntime-linux-aarch64-1.13.1.tgz
 #tar zxvf onnxruntime-linux-aarch64-1.13.1.tgz
 ln -s onnxruntime-linux-aarch64-1.13.1/lib/libonnxruntime.so.1.13.1
-#wget https://jaist.dl.sourceforge.net/project/open-jtalk/Dictionary/open_jtalk_dic-1.11/open_jtalk_dic_utf_8-1.11.tar.gz
-#tar xzvf open_jtalk_dic_utf_8-1.11.tar.gz
+wget https://jaist.dl.sourceforge.net/project/open-jtalk/Dictionary/open_jtalk_dic-1.11/open_jtalk_dic_utf_8-1.11.tar.gz
+tar xzvf open_jtalk_dic_utf_8-1.11.tar.gz
 
 cd 
 #git clone https://github.com/yufuro/Release.git
