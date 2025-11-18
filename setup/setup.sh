@@ -1,15 +1,15 @@
 #2025/11/15 PwCロボティクス体験で使用したパッケージです
 
 #set up virtual environment
-python3 -m venv --system-site-packages venv
-. venv/bin/activate
+python3 -m venv --system-site-packages ../../venv
+. ../../venv/bin/activate
 
 #Japanease input system
 sudo apt update
 sudo apt install fcitx-mozc -y
 
 #Thonny Configuration
-cp configuration.ini .config/Thonny/
+cp configuration.ini ~/.config/Thonny/
 
 #install OPENCV
 sudo apt update
@@ -19,7 +19,7 @@ sudo apt -y install python-is-python3 python3-dev python-dev-is-python3 python3-
 
 #install voxvox
 #mkdir Voicevox
-cd Voicevox/
+cd ../Voicevox/
 #python -m venv voicevox
 #source voicevox/bin/activate
 #wget https://github.com/VOICEVOX/voicevox_core/releases/download/0.14.0/voicevox_core-0.14.0+cpu-cp38-abi3-linux_aarch64.whl
