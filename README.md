@@ -6,16 +6,15 @@ OSはBookworm(64bit)normal インストールにて実証済み
 
 [セットアップ手順]
 
-個人のルートファイル上にReleaseファイルを展開
-
+① /home/<ユーザー名>上にReleaseリポジトリを展開　\n
 $ cd 
 
 $ github clone https://github.com/yufuro/Release.git
 
-1 システムファイルを設定します
+② システムファイルを設定します
 
 $ sh ./Release/setup/setup_raspi.sh
 
-2 自動再起動のちにインストール作業を行います
+③ 自動再起動のちにインストール作業を行います
 
 $ sh ./Release/setup/setup.sh
