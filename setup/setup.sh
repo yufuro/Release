@@ -22,7 +22,7 @@ sudo apt -y install python-is-python3 python3-dev python-dev-is-python3 python3-
 cd ../Voicevox/
 #python -m venv voicevox
 #source voicevox/bin/activate
-#wget https://github.com/VOICEVOX/voicevox_core/releases/download/0.14.0/voicevox_core-0.14.0+cpu-cp38-abi3-linux_aarch64.whl
+wget https://github.com/VOICEVOX/voicevox_core/releases/download/0.14.0/voicevox_core-0.14.0+cpu-cp38-abi3-linux_aarch64.whl
 pip install voicevox_core-0.14.0+cpu-cp38-abi3-linux_aarch64.whl
 #wget https://github.com/microsoft/onnxruntime/releases/download/v1.13.1/onnxruntime-linux-aarch64-1.13.1.tgz
 #tar zxvf onnxruntime-linux-aarch64-1.13.1.tgz
