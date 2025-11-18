@@ -6,13 +6,6 @@ cd
 python3 -m venv --system-site-packages venv
 . venv/bin/activate
 
-#Japanease input system
-sudo apt update
-sudo apt install fcitx-mozc -y
-
-#Thonny Configuration
-cp ~/Release/setup/configuration.ini ~/.config/Thonny/
-
 #install OPENCV
 sudo apt update
 sudo apt upgrade -y
@@ -31,6 +24,13 @@ pip install voicevox_core-0.14.0+cpu-cp38-abi3-linux_aarch64.whl
 ln -s onnxruntime-linux-aarch64-1.13.1/lib/libonnxruntime.so.1.13.1
 wget https://jaist.dl.sourceforge.net/project/open-jtalk/Dictionary/open_jtalk_dic-1.11/open_jtalk_dic_utf_8-1.11.tar.gz
 tar xzvf open_jtalk_dic_utf_8-1.11.tar.gz
+
+#Japanease input system
+sudo apt update
+sudo apt install fcitx-mozc -y
+
+#Thonny Configuration
+cp ~/Release/setup/configuration.ini ~/.config/Thonny/
 
 cd 
 #git clone https://github.com/yufuro/Release.git
