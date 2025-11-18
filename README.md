@@ -10,8 +10,8 @@ OSはBookworm(64bit)normal インストールにて実証済み
 
 $ cd
 
-$ ./Release/setup/setup_raspi.sh
+$ sh ./Release/setup/setup_raspi.sh
 
 2 自動再起動のちにインストール作業を行います
 
-$ ./Release/setup/setup.sh
+$ sh ./Release/setup/setup.sh
