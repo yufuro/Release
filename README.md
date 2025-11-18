@@ -8,7 +8,9 @@ OSはBookworm(64bit)normal インストールにて実証済み
 
 1 システムファイルを設定します
 
-$ ./Release/setup/setup-rasp.sh
+$ cd
+
+$ ./Release/setup/setup_raspi.sh
 
 2 自動再起動のちにインストール作業を行います
 
