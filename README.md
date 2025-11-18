@@ -6,6 +6,9 @@ OSはBookworm(64bit)normal インストールにて実証済み
 
 セットアップ手順
 
+個人のルートファイル上にReleaseファイルを展開
+github clone 
+
 1 システムファイルを設定します
 
 $ cd
