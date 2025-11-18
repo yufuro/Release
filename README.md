@@ -7,11 +7,10 @@ OSはBookworm(64bit)normal インストールにて実証済み
 セットアップ手順
 
 個人のルートファイル上にReleaseファイルを展開
-github clone 
+$ cd 
+$ github clone https://github.com/yufuro/Release.git
 
 1 システムファイルを設定します
-
-$ cd
 
 $ sh ./Release/setup/setup_raspi.sh
 
