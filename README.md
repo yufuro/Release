@@ -1,6 +1,6 @@
 ## 🤖 ロボティクス体験キット / Robotics Experience Kit
 
-<img src="https://github.com/user-attachments/assets/491546c5-e0e8-42da-94b3-e083f5ea7232" width="640">
+<img src="https://github.com/user-attachments/assets/491546c5-e0e8-42da-94b3-e083f5ea7232" width="500">
 -----
 
 ### 🚀 動作環境 (Platform & OS)
