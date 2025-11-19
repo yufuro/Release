@@ -99,9 +99,9 @@ VOICEVOX Coreを利用した音声合成と、スピーカー再生に関する�
 
 ### ハードウェア
  <img src="https://github.com/user-attachments/assets/910b0de4-1e54-4c81-b76c-4a0fc24df4d1" width="400">
-* Raspberry Pi (Pi 4
-/ Pi 5 推奨)
-* Camera Module (PiCamera2 対応)
+
+* Raspberry Pi (Pi 4/ Pi 5 推奨)
+* Camera Module 3 (PiCamera2 対応)
 * PCA9685 PWM Driver (I2C接続)
 * TSL2591 Light Sensor (I2C接続)
 * Servo Motors x2 (Pan/Tilt)
