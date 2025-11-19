@@ -1,5 +1,6 @@
 ## 🤖 ロボティクス体験キット / Robotics Experience Kit
-![ロボティクス体験キット](images/image00.jpg)
+![image00](https://github.com/user-attachments/assets/491546c5-e0e8-42da-94b3-e083f5ea7232)
+
 -----
 
 ### 🚀 動作環境 (Platform & OS)
