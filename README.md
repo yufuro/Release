@@ -84,6 +84,15 @@ Google MediaPipeを使用した高度な認識サンプルです。
 | :--- | :--- | :--- |
 | **`object_detect/detect_picam.py`** | 物体検出 | 学習済みモデルを使用し、人やコップなど一般的な物体をリアルタイムで検出・識別します。 |
 
+### 5. 音声・発話（Audio & Speech）
+VOICEVOX Coreを利用した音声合成と、スピーカー再生に関するコードです。
+
+| ファイル名 | 概要 | 特徴 |
+| :--- | :--- | :--- |
+| **`checkdev.py`** | デバイス確認 | 使用可能なマイク・スピーカーの一覧を表示します。デバイス番号の特定に使用します。 |
+| **`create_voice.py`** | 音声合成 | VOICEVOX Coreを使用し、テキストから音声ファイル(WAV)を生成します。 |
+| **`play_voice.py`** | 音声再生 | 生成したWAVファイルを再生します。再生時のノイズ対策（無音挿入）が含まれています。 |
+
 ---
 
 ## 🛠 動作環境・要件
@@ -94,6 +103,7 @@ Google MediaPipeを使用した高度な認識サンプルです。
 * PCA9685 PWM Driver (I2C接続)
 * TSL2591 Light Sensor (I2C接続)
 * Servo Motors x2 (Pan/Tilt)
+* Speaker / Headphones (3.5mm jack or USB/HDMI)
 
 ## 🚀 実行方法
 
