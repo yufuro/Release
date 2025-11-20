@@ -30,7 +30,7 @@ sudo apt update
 sudo apt install fcitx-mozc -y
 
 #Thonny Configuration
-cp ~/Release/setup/configuration.ini ~/.config/Thonny/
+/usr/bin/cp ~/Release/setup/configuration.ini ~/.config/Thonny/
 
 cd 
 #git clone https://github.com/yufuro/Release.git
