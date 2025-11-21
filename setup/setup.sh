@@ -29,8 +29,8 @@ sudo apt update
 sudo apt install fcitx-mozc -y
 
 # Thonny Configuration
-mkdir -p "$HOME/.config/Thonny"
-/usr/bin/cp "$HOME/Release/setup/configuration.ini" "$HOME/.config/Thonny/"
+#mkdir -p "$HOME/.config/Thonny"
+/usr/bin/cp -R "$HOME/Release/setup/Thonny" "$HOME/.config/"
 
 cd "$HOME"
 
